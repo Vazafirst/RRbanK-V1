@@ -24,44 +24,7 @@ $Resultadoall = $resultado['dinheiro'];
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/menu.css" >
         <link rel="stylesheet" type="text/css" href="css/banco.css" >
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.5.min.js"></script>
-
     </head>
-    <style>
-        .dep_adm{
-            width: 150px;
-            height: 80px;
-            background-color: #ff6600;
-            color: white;
-            font-size: 30px;
-            border: 1px black solid;
-            margin-left: 45%;
-            display: block;
-            margin-top: 8px;
-            cursor: pointer;
-        }
-        .deposito_adm{
-            background-color: #ff0000;
-            margin-left: 10px;
-            height: 300px;
-            width: 50%;
-            left: 330px;
-            position: absolute;
-            margin-top: 250px;
-            display: none;
-        }
-
-        .saque_adm{
-            background-color: #ff0000;
-            margin-left: 10px;
-            height: 300px;
-            width: 50%;
-            left: 330px;
-            position: absolute;
-            margin-top: 100px;
-            display: none;
-        }
-    </style>
 </head>
 <body>
     <br/>

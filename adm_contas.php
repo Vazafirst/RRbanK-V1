@@ -81,7 +81,6 @@ $resultDeposito = mysqli_query($conexao, $sqlDeposito);
 
     <div class="banco" id="usuarios">
         <center>
-            <P> IGNORE A MENSAGEM DE ERROR ABAIXO</P><BR>
             <?php
             require_once './conexao/conexao.php';
 

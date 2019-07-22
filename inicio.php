@@ -10,7 +10,6 @@
         <?php
         include_once "./conexao/conexao.php"; // conexão com o banco de dados
         include_once './src/dao/eventoDao.php'; // querys para exibir os eventos
-        include_once './c/funcoes.php';
         $caixaemer = 1; // Pega id do caixa emergencial
         $caixaev = 2; // Pega id do caixa de eventos
 

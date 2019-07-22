@@ -159,16 +159,11 @@ if ($saldobanco != $dinheiroup) {
         echo "<p class=up>Seu dinheiro renderá: <br><br><p class=dat>$valor1</p><br><br></p>";
         ?>
         <?php
-        $dia_hora_atual = strtotime(date("Y-m-d H:i:s")); //aqui o dia atual
+        $dia_hora_atual = strtotime(date("Y-m-d H:i:s"));
 
-        $dia_hora_evento = strtotime(date($datalimit)); // aqui o dia que o vip vai acaba
-#Achamos a diferença entre as datas...
+        $dia_hora_evento = strtotime(date($datalimit));
 
         $diferenca = $dia_hora_evento - $dia_hora_atual;
-
-
-
-#Fazemos a contagem...
 
         $dias = intval($diferenca / 86400);
 
@@ -182,12 +177,7 @@ if ($saldobanco != $dinheiroup) {
 
         $segundos = $marcador % 60;
 
-
-
-#Exibimos o resultado
-
         echo "<P style='text-align: center;'> Proxíma atualização em: $dias dia(s) $hora hora(s) $minuto minuto(s) </P>";
-        //  aqui o resultando que dia que vai acaba
         ?>
     </div><br>
     <div class="btn">

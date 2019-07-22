@@ -205,12 +205,10 @@
                     if ($saldo <= 0) {
                         echo "<br><br>Realize um depósito para começar a lucrar";
                     } else {
-                        $dia_hora_atual = strtotime(date("Y-m-d H:i:s")); //aqui o dia atual
+                        $dia_hora_atual = strtotime(date("Y-m-d H:i:s"));
 
-                        $dia_hora_evento = strtotime(date($datalimit)); // aqui o dia que o vip vai acaba
-#Achamos a diferença entre as datas...
+                        $dia_hora_evento = strtotime(date($datalimit));
                         $diferenca = $dia_hora_evento - $dia_hora_atual;
-#Fazemos a contagem...
                         $dias = intval($diferenca / 86400);
 
                         $marcador = $diferenca % 86400;

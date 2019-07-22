@@ -1,21 +1,3 @@
-<script>
-
-    (function ()
-    {
-        if (window.localStorage)
-        {
-            if (!localStorage.getItem('first'))
-            {
-                localStorage[ 'first' ] = true;
-                window.location.reload();
-            } else
-                localStorage.removeItem('first');
-        }
-    })();
-
-
-</script>
-
 <input type="checkbox" id="bt_menu">
 <label for="bt_menu">&#9776;</label>
 

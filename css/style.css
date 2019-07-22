@@ -1,0 +1,16 @@
+body{
+	background-color: #444;
+	overflow: auto;
+	margin: 0;
+        font-family: Verdana;
+        font-size: 100%;
+        color: white;
+        z-index: 10;
+}
+a{
+    color: white;
+}
+
+.conteudo{
+    position: absolute;
+}

@@ -1,0 +1,264 @@
+.banco{
+    width: 50%;
+    margin-left: 340px;
+    height: auto;
+    min-height: 200px;
+    max-height: 1200px;
+    background-color: #020c15;
+    margin-top: 100px;
+}
+
+.bntconf{
+    display: none;
+}
+
+.warn{
+    width: 50%;
+    background-color: #000;
+    margin-left: 340px;
+    height: auto;
+    margin-top: 50px;
+    display: none;
+}
+
+.iduser{
+    display: none;
+    width: 10px;
+}
+
+.atual{
+    color: #ff6600;
+    text-align: center;
+    font-size: 20px;
+}
+.up{
+    color: #ff6600;
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn{
+    height: 100px;
+    width: 100%;
+    display: block;
+}
+
+.saq{
+    width: 150px;
+    height: 80px;
+    color: white;
+    background-color: #ff6600;
+    font-size: 30px;
+    border: 1px black solid;
+    margin-left: 38%;
+    position: relative;
+    display: block;
+    margin-top: -80px;
+    cursor: pointer;
+
+}
+.dep{
+    width: 150px;
+    height: 80px;
+    background-color: #ff6600;
+    color: white;
+    font-size: 30px;
+    border: 1px black solid;
+    margin-left: 50%;
+    position: relative;
+    display: block;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.hr{
+    color: #ff0000;
+}
+
+.dat{
+    color: #00ffff;
+    text-align: center;
+    font-size: 20px;
+}
+
+.depositar{
+    background-color: #CCC321;
+    border: 1px #CCC321 solid;
+    width: auto;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 50%;
+}
+#saque{
+    background-color: #222;
+    margin-left: 10px;
+    height: 300px;
+    width: 50%;
+    left: 330px;
+    position: absolute;
+    top: 200px;
+    display: none;
+
+}
+#deposito{
+    background-color: #222;
+    margin-left: 10px;
+    height: 300px;
+    width: 50%;
+    left: 330px;
+    position: absolute;
+    top: 200px;
+    display: none;
+}
+
+.saqdep{
+    background-color: #CCC321;
+    border: 1px #00ffff solid;
+    width: auto;
+    height: 40px;
+    margin-top: 15px;
+}
+.confirmar{
+    width: 150px;
+    height: 80px;
+    background-color: #222231;
+    color: white;
+    font-size: 30px;
+    border: 1px black solid;
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+@media(max-width: 1320px){
+
+    .banco{
+        width: 100%;
+        margin-left: 0px;
+        height: auto;
+        min-height: 200px;
+        max-height: 1200px;
+        background-color: #020c15;
+        margin-top: 50px;
+        position: absolute;
+    }
+
+    .warn{
+        width: 100%;
+        background-color: #000;
+        margin-left: 0px;
+        height: auto;
+        margin-top: 50px;
+        display: none;
+    }
+
+    .atual{
+        color: #ff6600;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .up{
+        color: #ff6600;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .btn{
+        height: 100px;
+        width: 100%;
+        display: block;
+        margin-top: 300px;
+        margin-left: -28px;
+    }
+
+    .saq{
+        margin: 0 auto;
+        width: 150px;
+        height: 80px;
+        color: white;
+        background-color: #ff6600;
+        font-size: 30px;
+        border: 1px black solid;
+        margin-left: 20%;
+        position: absolute;
+        margin-top: 80px;
+        display: block;
+        cursor: pointer;
+    }
+
+    .dep{
+        margin: 0 auto;
+        width: 150px;
+        height: 80px;
+        background-color: #ff6600;
+        color: white;
+        font-size: 30px;
+        border: 1px black solid;
+        margin-left: 60%;
+        position: absolute;
+        margin-top: 80px;
+        display: block;
+        cursor: pointer;
+    }
+
+    .hr{
+        color: #ff0000;
+    }
+
+    .dat{
+        color: #00ffff;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .depositar{
+        background-color: #CCC321;
+        border: 1px #CCC321 solid;
+        width: auto;
+        height: 40px;
+        margin-top: 15px;
+        margin-left: 50%;
+    }
+
+    #saque{
+        background-color: #222;
+        width: 100%;
+        height: auto;
+        top: 250px;
+        position: absolute;
+        display: none;
+        z-index: 1000;
+        margin-left: -66%;
+    }
+
+    #deposito{
+        background-color: #222;
+        width: 100%;
+        height: auto;
+        top: 250px;
+        position: absolute; 
+        display: none;
+        z-index: 1000;
+        margin-left: -66%;
+    }
+
+    .saqdep{
+        background-color: #CCC321;
+        border: 1px #00ffff solid;
+        width: auto;
+        height: 40px;
+        margin-top: 15px;
+    }
+    .confirmar{
+        width: 150px;
+        height: 80px;
+        background-color: #222231;
+        color: white;
+        font-size: 30px;
+        border: 1px black solid;
+        position: relative;
+        display: block;
+        cursor: pointer;
+    }
+}

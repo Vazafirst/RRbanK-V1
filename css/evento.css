@@ -1,0 +1,73 @@
+.exevento{
+    position: relative;
+    width: 100%;
+    float: top;
+    height: auto;
+    border: 1px solid;
+    background-color: #020c15;
+    border-color: #ff0000;
+    min-height: 500px;
+    max-width: 1200px;
+    max-height: 2000px;
+    display: block;
+    margin-top: 20px;
+    left: 6%;
+    text-align: center;
+}
+
+.conteudo{
+    background-color: #222231;
+    position: static;
+    width: 90%;
+    height: auto;
+    min-height: 400px;
+    max-height: 1995px;
+    margin-left: 5%;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+}
+
+.eventos{
+    color: #00ffff;
+}
+
+.exativos{
+    letter-spacing: 17px;
+}
+
+.trab{
+    margin: 0 auto;
+    border: solid #ff6600;
+    padding: 0;
+    width: auto;
+    height: auto;
+    max-width: 400px;
+    display: block;
+}
+.war{
+    margin: 0 auto;
+    border: solid #ff6600;
+    padding: 0;
+    width: auto;
+    height: auto;
+    max-width: 400px;
+    display: block;
+}
+.donate{
+    margin: 0 auto;
+    border: solid #ff6600;
+    padding: 0;
+    width: auto;
+    height: auto;
+    max-width: 400px; 
+    display: block;
+}
+
+@media(max-width: 1200px){
+    .exevento{
+        width: 100%;
+        position: static;
+    }
+}
